@@ -172,6 +172,40 @@ write-host "Creating 4 applications/sp with 20 day pwd"
 write-host "adding 5 sp to random users as owner"
 Get-AzureADServicePrincipal | get-random | select -First 5 | Add-AzureADServicePrincipalOwner -refobjectid $(($aadusers | get-random).objectid)
 
+$spat_params = @{AccountEnabled = $true
+        DisplayName = "Bill Gates"
+        PasswordProfile = $PasswordProfile
+        City = "Seattle"
+       State = "WA"
+        CompanyName = "Contoso"
+        Country = "US"
+        MailNickName = "BillGates"
+        PostalCode = "99999"
+        Streetaddress = "One Contoso Way"
+        surname = "Gates"
+        givenname = "Bill"
+        UserPrincipalName = "bg@$domain"
+        }
+new-azureaduser @spat_params
+$ceo = get-azureaduser -ObjectId "bg@$domain"
+
+foreach($dep in $departments){
+    $i = 1
+    foreach($aadu in $aadusers | where {$_.department -eq $dep}){
+        
+        if($i -eq 1){
+            $man = $aadu
+            write-host "Setting Manager $($ceo.displayname) on $($man.displayname)"
+            
+            Set-AzureADUserManager -ObjectId $man.objectid -RefObjectId $ceo.objectid
+            $i = 2
+        }else{
+            write-host "Setting Manager $($man.displayname) on $($aadu.displayname)"
+            Set-AzureADUserManager -ObjectId $aadu.objectid -RefObjectId $man.objectid
+        }
+    }
+}
+
 #Connect-MsolService
 #creates legacy service principal
 write-host "creating 5 legacy sp with password"
