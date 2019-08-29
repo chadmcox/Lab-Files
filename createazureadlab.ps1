@@ -1,7 +1,9 @@
 #Requires -module AzureADPreview,MSOnline
 <#
 
-
+This will set up a lot of things on an azure ad tenant
+make sure to log on with a global admin account from that tenant
+you will need to connect to both msol and azuread
 
 
 enable your tenant and enable p2 license trial or ems E5
