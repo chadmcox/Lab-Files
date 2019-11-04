@@ -101,6 +101,23 @@ Get-AzureADDirectoryRole -PipelineVariable role | foreach{
      Add-AzureADDirectoryRoleMember -ObjectId $role.objectid -RefObjectId $(($aadadminusers | get-random).ObjectId) -erroraction silentlycontinue
     }
 }
+Write-host "Creating Guest Users"
+$guestusers = (invoke-webrequest -uri "https://raw.githubusercontent.com/chadmcox/Lab-Files/master/Guest.txt").content
+foreach($g in $guestusers.Split([Environment]::NewLine)){
+    New-AzureADMSInvitation -InvitedUserEmailAddress "$g" -InviteRedirectURL https://myapps.azure.com -SendInvitationMessage ($true,$false | get-random)
+}
+
+$guests = Get-AzureADUser -Filter "UserType eq 'Guest'" -all $true
+Write-host "Activating Application Administrator"
+Get-AzureADDirectoryRoleTemplate | where {$_.Displayname -eq "Application Administrator"} | foreach{Enable-AzureADDirectoryRole -RoleTemplateId $_.ObjectId}
+Get-AzureADDirectoryRole | where {$_.Displayname -eq "Application Administrator"} -OutVariable role
+Add-AzureADDirectoryRoleMember -ObjectId $role.objectid -RefObjectId $(($guests | get-random).ObjectId) -erroraction silentlycontinue
+Write-host "Randomly adding Guest to roles"
+Get-AzureADDirectoryRole -PipelineVariable role | foreach{
+    0..$(get-random -Minimum 0 -Maximum 1) | foreach{
+        Add-AzureADDirectoryRoleMember -ObjectId $role.objectid -RefObjectId $(($guests | get-random).ObjectId) -erroraction silentlycontinue
+    }
+}
 
 #Randomize group memberships
 write-host "Collecting all Groups"
