@@ -8,15 +8,16 @@ you will need to connect to both msol and azuread
 
 enable your tenant and enable p2 license trial or ems E5
 #>
-
+write-host "connect to azure ad using connect-azuread"
 connect-azuread
+write-host "connect to azure ad using connect-msolservice"
 connect-msolservice
 write-host "Set Password Profile"
 $PasswordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
 $PasswordProfile.Password = "Going to rush Area 51!"
 $domain = (get-azureaddomain | where IsDefault -eq $true).name
 
-write-host "Creating a binch of Users"
+write-host "Creating a bunch of Users"
 $users = (invoke-webrequest -uri "https://raw.githubusercontent.com/chadmcox/Lab-Files/master/Users.txt").content
 $users.Split([Environment]::NewLine) | foreach{
     write-host "Creating User $((($_.split(","))[3]).replace('"',''))"
