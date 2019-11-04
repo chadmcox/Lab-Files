@@ -150,6 +150,8 @@ $setting["LockoutDurationInSeconds"] = 30
 New-AzureADDirectorySetting -DirectorySetting $setting
 write-host "Setting homerealmdiscovery"
 New-AzureADPolicy -Definition @("{`"HomeRealmDiscoveryPolicy`":        {`"AccelerateToFederatedDomain`":true}}") -DisplayName BasicAutoAccelerationPolicy -Type HomeRealmDiscoveryPolicy 
+write-host "creating unused claim policy"
+New-AzureADPolicy -Definition @('{"ClaimsMappingPolicy":{"Version":1,"IncludeBasicClaimSet":"true", "ClaimsSchema":[{"Source":"user","ID":"extensionattribute1"},{"Source":"transformation","ID":"DataJoin","TransformationId":"JoinTheData","JwtClaimType":"JoinedData"}],"ClaimsTransformations":[{"ID":"JoinTheData","TransformationMethod":"Join","InputClaims":[{"ClaimTypeReferenceId":"extensionattribute1","TransformationClaimType":"string1"}], "InputParameters": [{"ID":"string2","Value":"sandbox"},{"ID":"separator","Value":"."}],"OutputClaims":[{"ClaimTypeReferenceId":"DataJoin","TransformationClaimType":"outputClaim"}]}]}}') -DisplayName "TransformClaimsExample" -Type "ClaimsMappingPolicy"
 
 write-host "Setting unified group stuff"
 $template = Get-AzureADDirectorySettingTemplate | where-object {$_.displayname -eq “Group.Unified”}
