@@ -244,6 +244,34 @@ $azureadsps = Get-AzureADServicePrincipal | where serviceprincipaltype -eq "lega
     Add-MsolRoleMember -RoleObjectId $((get-msolrole | get-random).objectid) -RoleMemberType ServicePrincipal -RoleMemberObjectId $(($azureadsps | get-random).objectid)
 }
 
+$numb = get-random -min 100 -max 1000
+$myApp = New-AzureADApplication -DisplayName "Demo App Trigger All Users" -IdentifierUris "https://localhost:$numb"
+$mySP = New-AzureADServicePrincipal -AppId $myApp.AppId
+$allusersgroup = Get-AzureADGroup -SearchString "All User"
+New-AzureADGroupAppRoleAssignment -ObjectId $allusersgroup.ObjectId -PrincipalId $allusersgroup.ObjectId -ResourceId $mySP.ObjectId -Id ([Guid]::Empty)
+
+
+$numb = get-random -min 100 -max 1000
+$myApp = New-AzureADApplication -DisplayName "Demo App Trigger Guest" -IdentifierUris "https://localhost:$numb"
+$mySP = New-AzureADServicePrincipal -AppId $myApp.AppId
+1..3 | foreach{
+    $guest = $guests | Get-Random
+    New-AzureADUserAppRoleAssignment -ObjectId $guest.ObjectId -PrincipalId $guest.ObjectId -ResourceId $mySP.ObjectId -Id ([Guid]::Empty)
+}
+$aadusers = Get-AzureADUser -Filter "userType eq 'member' and AccountEnabled eq true" -top 100
+1..50 | foreach{
+    $aadu = $aadusers | Get-Random
+    New-AzureADUserAppRoleAssignment -ObjectId $aadu.ObjectId -PrincipalId $aadu.ObjectId -ResourceId $mySP.ObjectId -Id ([Guid]::Empty)
+}
+
+$myApp = New-AzureADApplication -DisplayName "Demo App Trigger Role Admin" -IdentifierUris "https://localhost:$numb"
+$mySP = New-AzureADServicePrincipal -AppId $myApp.AppId
+$roleAdmins = Get-AzureADDirectoryRole | get-azureaddirectoryrolemember | where {$_.objecttype -eq "User"}
+1..3 | foreach{
+    $roleuser = $roleAdmins | Get-Random
+    New-AzureADUserAppRoleAssignment -ObjectId $roleuser.ObjectId -PrincipalId $roleuser.ObjectId -ResourceId $mySP.ObjectId -Id ([Guid]::Empty)
+}
+
 $auth = New-Object -TypeName Microsoft.Online.Administration.StrongAuthenticationRequirement
 $auth.RelyingParty = "*"
 $auth.State = "Enabled"
