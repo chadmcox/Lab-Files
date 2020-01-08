@@ -14,9 +14,10 @@ write-host "connect to azure ad using connect-msolservice"
 connect-msolservice
 write-host "Set Password Profile"
 $PasswordProfile = New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
-$PasswordProfile.Password = "Going to rush Area 51!"
+$PasswordProfile.Password = "b0gus p@s3w0rd yay!"
 $domain = (get-azureaddomain | where IsDefault -eq $true).name
 
+if($(read-host "Do user objects need to be created? Enter: Yes or No") -eq "yes"){
 write-host "Creating a bunch of Users"
 $users = (invoke-webrequest -uri "https://raw.githubusercontent.com/chadmcox/Lab-Files/master/Users.txt").content
 $users.Split([Environment]::NewLine) | foreach{
@@ -36,9 +37,14 @@ $users.Split([Environment]::NewLine) | foreach{
         }
     new-azureaduser @spat_params
  }
+ }
 
  write-host "Getting All Users for Later"
  $aadusers = get-azureaduser -all $true
+
+ if($aadusers.count -lt 20){
+    write-host "Not very many user objects"
+ }
 
  write-host "Updating all users departments"
 $Departments = "Logistics","Information Technology","IT Support","Strategic Information Systems","Data Entry","Research and Development","Strategic Sourcing","Purchasing","Strategic Sourcing","Operations","Public Relations","Corporate Communications","Advertising","Market Research","Strategic Marketing","Customer service","Telesales","Account Management","Marketing","Sales","Payroll","Recruitment","Training","Human Resource","Accounting","Financial"
@@ -49,6 +55,7 @@ $aadusers | foreach{
 
  write-host "Updating all users usage location"
 #assign usage location
+$user_count = $aadusers.count * .90
 $aadusers | select -First 900 | Set-AzureADUser -usagelocation "US" -erroraction silentlycontinue
 
 write-host "Creating Dynamic Groups by department"
