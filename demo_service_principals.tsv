@@ -1,0 +1,262 @@
+ObjectID	ObjectType	OnPremisesSecurityIdentifier	UserPrincipalName	GivenName	Surname	DisplayName	UserType	UserState	MailEnabled	onPremisesDistinguishedName	PublisherName
+7818148e-93c3-4c19-8ffb-8039fda690cc	ServicePrincipal					Events					Microsoft Accounts
+96944ee2-79fc-45c3-8dae-7485acc646cc	ServicePrincipal					Azure Logic Apps (Central US)					Microsoft Accounts
+237f8f4c-0a15-4ad0-a858-8e97924cd7ba	ServicePrincipal					Bing Maps					Microsoft Accounts
+c4df8343-4ddd-448c-a050-e1bf53d6a95c	ServicePrincipal					OutlookTasksConnector-PowerApps and Flow					Microsoft Accounts
+5eb44dc2-c6d6-4f9e-99fb-b5205b864cf8	ServicePrincipal					To-Do Importer					Microsoft Accounts
+23d61c34-10c4-419e-b27c-2765dae34c71	ServicePrincipal					Hiretual					Microsoft Accounts
+bb673771-70bb-435b-8535-553da2bc26ac	ServicePrincipal					SAT APPS MX 1819					Microsoft Accounts
+113c7ce1-a541-49e0-aca8-47a4b5d1d897	ServicePrincipal					Tableau Desktop					Microsoft Accounts
+4323d9e5-dabf-4f1c-a630-f18c75fcf127	ServicePrincipal					Blinklearning					Microsoft Accounts
+27f8becd-106d-4a3b-961b-fac8faabe4cc	ServicePrincipal					Zoom					Microsoft Accounts
+97f67c6e-28a9-4364-a0f2-71b25db996a4	ServicePrincipal					P-touch Editor					Microsoft Accounts
+1c29bd27-edd2-4e3f-9390-4a1abe877e57	ServicePrincipal					SurveyMonkey					SurveyMonkey
+b920e39c-44ef-4e41-8fc4-53dc4714218f	ServicePrincipal					TicketSwap					Microsoft Accounts
+b11a88f0-0476-46d4-8657-3ec33758089f	ServicePrincipal					Meeting Room Software Production					Microsoft Accounts
+a709f156-3187-48c9-857d-efdb879d9649	ServicePrincipal					RaiDrive					Microsoft Accounts
+dae46521-95e8-4d95-903b-67ee5ddf4f2a	ServicePrincipal					OneTask					Microsoft Accounts
+8978ed54-ed5c-4452-a76f-5d2990da10f5	ServicePrincipal					Monster.com Job Apply					Microsoft Accounts
+cd74dfac-d73f-4841-9d53-fbda12451ccd	ServicePrincipal					Custom Speech Service					Microsoft Accounts
+ecc9dcb6-b97f-4841-98e7-8070f8ee8e53	ServicePrincipal					Aha!					Microsoft Accounts
+c9a9372b-7416-4d50-be52-edbf2f83cb7b	ServicePrincipal					Tableau Server					Microsoft Accounts
+f2c0ad6f-0b10-428d-b9a2-0af3f2af5607	ServicePrincipal					Salesforce					Salesforce
+1239b0b3-efcd-4ccb-bb3b-36754268503e	ServicePrincipal					File Manager Plus					Microsoft Accounts
+dd1b71c9-fb04-4206-a10a-7d650ad45439	ServicePrincipal					FX File Explorer					Microsoft Accounts
+70b818c0-7b24-4b8c-8188-ae835d6f526b	ServicePrincipal					Voicera					Microsoft Accounts
+cde16c3d-a018-46bb-b056-93772613284a	ServicePrincipal					NA2					Microsoft Accounts
+15c21a28-8d79-4e19-96f7-89fd424ab444	ServicePrincipal					Vidyard for Outlook					Microsoft Accounts
+de275f23-7abb-4ca8-8330-30bcb5bebe5a	ServicePrincipal					Zendesk					Microsoft Accounts
+8dfe03f8-8178-4f70-b392-cf3386cb6b81	ServicePrincipal					LinkedIn					LinkedIn Production
+0202a940-d772-446c-96c8-4e0b62388010	ServicePrincipal					VLE OpenIDCAuthorization Live					Microsoft Accounts
+56e9ad3e-e09d-4740-9f34-262f0eac7702	ServicePrincipal					Confluence Cloud					Microsoft Accounts
+d25f7ea1-6cc8-447d-a065-79ae93e0a0c6	ServicePrincipal					Alto PDF to Excel					Microsoft Accounts
+4ececb03-595f-4edb-8b84-653fc24d74a0	ServicePrincipal					NuGet.org					Microsoft Accounts
+7d1f3efa-0177-42ca-9aa9-b63247205564	ServicePrincipal					Zapier					Microsoft Accounts
+a7860f4f-1511-4229-8863-83a9bd2b5b83	ServicePrincipal					Integromat					Microsoft Accounts
+e0f8cce9-4e21-4962-9e18-b91ca3c15d3b	ServicePrincipal					NoodleTools					Microsoft Accounts
+7f3bc933-85e2-4752-a525-fb9133bd3880	ServicePrincipal					Soda PDF					Microsoft Accounts
+b3a7db1b-08dc-48a0-b1fa-801112fce9b2	ServicePrincipal					DocuSign Clients					DocuSign
+d52c2d36-4daf-4c46-82db-a6e80449ea06	ServicePrincipal					www.drawnames.com					Microsoft Accounts
+b8827dec-b6a9-4b87-8000-4b617edcff5a	ServicePrincipal					Lucidchart					Microsoft Accounts
+62c0774c-327a-408a-ab3f-880d0a530fd5	ServicePrincipal					Wavebox					Microsoft Accounts
+2c8cbfa0-2ce4-4cbd-943c-63011f5d653a	ServicePrincipal					Zapier Excel					Microsoft Accounts
+f5d8f157-e062-4461-8f65-fe2abb766f33	ServicePrincipal					The ASP.NET website					Microsoft Accounts
+6e2d1231-ef36-4697-9999-d3c35cbcb3a6	ServicePrincipal					Meetingbird by Front					Microsoft Accounts
+d5530276-778b-4e56-9b39-c1c096a98679	ServicePrincipal					AuthBot					Microsoft Accounts
+a25cdaca-4d62-4649-b08f-6173f35f23fa	ServicePrincipal					Connect GigJam to Office365					Microsoft Accounts
+15740fc1-f72e-46da-ab64-a91fe1a928ba	ServicePrincipal					Voice Recorder					Microsoft Accounts
+721bd13f-fce4-4338-ba0c-c5006d500e8d	ServicePrincipal					ALON Dictaphone Free					Microsoft Accounts
+09194462-cded-4e5e-8f5a-898f68b2a2b7	ServicePrincipal					OneNote					Microsoft Accounts
+aa60da4c-16cc-4a2e-924a-5d8e1455073a	ServicePrincipal					Brother iPrintAndScan					Microsoft Accounts
+8c1ee99f-4fcd-404d-99c6-efe6e6dd4ddd	ServicePrincipal					SEGURO REGISTRO APP MX 11					Microsoft Accounts
+a6254c8b-9654-48e1-979f-9adfa1b06ea5	ServicePrincipal					Empsense					Microsoft Accounts
+8d7dbc48-0d8a-43c2-8c67-fc7503d8c6cb	ServicePrincipal					Timeline Support					Microsoft Accounts
+faddf7a9-77b4-438e-9a3b-1b9cd6ef71db	ServicePrincipal					OneCalendar					Microsoft Accounts
+adc64dbb-a58d-428a-a6b4-25ef03c41508	ServicePrincipal					SqlDBM					Microsoft Accounts
+a6478480-2fdf-4aef-98c1-4fa99eaa5a18	ServicePrincipal					Verkkokauppa.com					Microsoft Accounts
+64654d7f-0b71-4210-b5d8-0c03618e623a	ServicePrincipal					Deseat.me					Microsoft Accounts
+28ae36c6-1de4-43ed-9123-45aeefdde9f5	ServicePrincipal					PowerApps					Microsoft Accounts
+65a46173-5774-4fc8-ae44-2d82462716ea	ServicePrincipal					Notability					Microsoft Accounts
+702858ed-003c-4d56-950a-0b3b47bb6162	ServicePrincipal					Invision					Microsoft Accounts
+b12cbd3d-a0c2-4419-962a-8e55802cd342	ServicePrincipal					dexcom					Microsoft Accounts
+6dcea4e7-575d-4833-927f-cc7e19105d60	ServicePrincipal					LastPass					Microsoft Accounts
+ab51c36c-2426-4c65-a760-2e5fc3d760c7	ServicePrincipal					PDFSimpli					Microsoft Accounts
+fafeb82f-29b4-4258-b6b1-54925547f716	ServicePrincipal					SurveyMonkey					SurveyMonkey
+30414c27-15fc-42c4-b050-bd9291d6d9d4	ServicePrincipal					Foxit					Microsoft Accounts
+a92e0e3a-9a65-44eb-bea5-7d49cd9124a5	ServicePrincipal					GoodSync					Microsoft Accounts
+c6bf1865-e1bf-4b1f-8a37-8677135c3808	ServicePrincipal					Project Calendar.Help					Microsoft Accounts
+075184ae-c71d-429f-90b0-b0b744590dd9	ServicePrincipal					Graph API					Microsoft Accounts
+59a18889-4c77-47e9-be4a-24ba5eed599a	ServicePrincipal					Zapier Outlook					Microsoft Accounts
+88530c8f-a634-4625-8326-4d4e343779e2	ServicePrincipal					OneDrive Free Client					Microsoft Accounts
+bc7e9841-3459-4fc9-bddf-ec68c692fed2	ServicePrincipal					SampleMultiProviderBot					Microsoft Accounts
+ff8b7b6f-c53f-42e0-ba55-ab9e8c6e65af	ServicePrincipal					inwink					Microsoft Accounts
+b3b7c4d8-bb12-4dad-8434-eb93aa392fc5	ServicePrincipal					FedEx Office?					Microsoft Accounts
+807ed1bf-bb57-4d51-94ea-eb4375ff708f	ServicePrincipal					Total					Microsoft Accounts
+6d397b0b-aeb7-4410-ac2e-bf068b3ef945	ServicePrincipal					HelpMeApply					Microsoft Accounts
+76563403-35e5-4d57-9044-5df267b81f16	ServicePrincipal					DC Desktop					Microsoft Accounts
+5ed2a965-b73c-4060-bf2f-f3c1abe38d1d	ServicePrincipal					MirrorOp					Microsoft Accounts
+71478cc2-8f08-4858-8a79-ecaa601160ec	ServicePrincipal					AddEvent.com					Microsoft Accounts
+bb900d6e-f12a-4ff7-a830-6a8ee0c3c0ce	ServicePrincipal					Garmin Connect					Microsoft Accounts
+9e41a40b-ca28-4da6-9919-b9044b5cdf8a	ServicePrincipal					DocuSign For Demo					DocuSign
+1e39e35b-da48-411e-8e76-2c6b13fc0e82	ServicePrincipal					Arrow Launcher					Microsoft Accounts
+2ca2e8f8-011e-4155-b926-e4a1a6e43aad	ServicePrincipal					drawio					Microsoft Accounts
+81790bb1-d90f-46bc-87f8-9424343131ef	ServicePrincipal					Ashampoo Backup					Microsoft Accounts
+8476fb4e-f9cf-4eb4-8fe8-85f913cc2078	ServicePrincipal					Coggle					Microsoft Accounts
+eb715f78-82f7-4b7d-99db-b01de40697ad	ServicePrincipal					The IIS.NET website					Microsoft Accounts
+0ae7dd61-0fe9-462a-a67b-aea5850864fa	ServicePrincipal					My Agenda for Fitbit					Microsoft Accounts
+1ba11f90-6931-482e-92db-c1fa756f86cb	ServicePrincipal					TCML					Microsoft Accounts
+d1fbc31e-a53c-45be-9784-89eb7468505b	ServicePrincipal					Jira Cloud					Microsoft Accounts
+33ebedf4-ef9f-41c8-9234-f9b3d2c8463a	ServicePrincipal					Campus Suite					Microsoft Accounts
+9f291b6d-88f9-4a72-80fd-851800d282ea	ServicePrincipal					seamless.ai (prod)					Microsoft Accounts
+aee3b0c5-166a-4999-8b78-635ded058c41	ServicePrincipal					ScanSnap Connect Application					Microsoft Accounts
+53f312ca-f6f7-4b9d-a02c-3041f65d5aca	ServicePrincipal					microsoft-graph-react					Microsoft Accounts
+2ddebf4d-b1c9-4cc4-9b18-f22ecb76cebe	ServicePrincipal					ExcelBot					Microsoft Accounts
+39bc5fab-365b-4b51-8a34-ef1a06c12b10	ServicePrincipal					trackxpo-prod					Microsoft Accounts
+cd0270e2-89f6-4e82-b707-3da5e4bfbc99	ServicePrincipal					Smartschool					Microsoft Accounts
+249eefc1-0d60-498c-9768-9c5bdbdf4ad8	ServicePrincipal					SAT APP REGISTRO MX 711					Microsoft Accounts
+b909e840-819a-4d11-b1dc-7d96b45f4f33	ServicePrincipal					Crystal					Microsoft Accounts
+6b3c014f-1fa2-4291-adb3-be77f42722eb	ServicePrincipal					Alignable					Microsoft Accounts
+b124a4bb-6879-4101-a79e-76861d310c80	ServicePrincipal					Boomerang					Microsoft Accounts
+a4bf1512-d6a0-4c5b-9cd1-6575e450cafb	ServicePrincipal					RescueTime Calendar Connection					Microsoft Accounts
+e84830d0-8ea9-4767-853b-9be89bbe2663	ServicePrincipal					Organimi					Microsoft Accounts
+4c5079f4-7d7a-4264-8dbb-e07331770f8d	ServicePrincipal					ARES Touch					Microsoft Accounts
+0f3c3294-848d-4c54-bda4-b754cd55ec62	ServicePrincipal					SyncGene					Microsoft Accounts
+9a903985-c028-4ca5-9bde-0eb334ed8bb1	ServicePrincipal					Koen Zomers OneDrive Sync v2					Microsoft Accounts
+237c1bad-f882-4101-acc8-bda52bc39845	ServicePrincipal					SIMS ID Live					Microsoft Accounts
+2163dc0c-1b08-4223-94a8-30671a4b1f77	ServicePrincipal					Cloudsponge					Microsoft Accounts
+3921d86b-31e7-4b19-a0cb-7c108fbb2ade	ServicePrincipal					Workboard					Microsoft Accounts
+0ce7363f-3650-486e-be73-bb91c026c698	ServicePrincipal					Asana OneDrive thumbnails					Microsoft Accounts
+afab5759-3ffd-4339-bb84-4bbc3075a246	ServicePrincipal					IntelliReach					Microsoft Accounts
+c8134bad-ba4d-4684-a3c3-743b6ea8468f	ServicePrincipal					PomoDoneApp					Microsoft Accounts
+baa8e3e1-fa4a-4b12-8ffe-283d343070a6	ServicePrincipal					Total Commander Plugin for OneDrive					Microsoft Accounts
+d197b088-e321-4e28-837f-972d97b3d736	ServicePrincipal					Tasks in a Box Connector					Microsoft Accounts
+e3ed2b09-e238-4314-be3b-8c2a8280c8f0	ServicePrincipal					OnePad					Microsoft Accounts
+93a7b762-006c-471a-9b52-695be95783c9	ServicePrincipal					ECAL					Microsoft Accounts
+eae838a7-3b73-4a9f-95e3-c44e9156b950	ServicePrincipal					Karma					Microsoft Accounts
+95a558a7-8c65-4ab1-abb1-3d23dcd927da	ServicePrincipal					Tasks Notes					Microsoft Accounts
+e8214157-db20-49b0-a9a3-efa1f43a17b0	ServicePrincipal					Attach OneDrive files to Asana					Microsoft Accounts
+8e79ddbf-0646-4f18-9d53-41c9a071f5c8	ServicePrincipal					LogMeIn					Microsoft Accounts
+35ea3950-20df-44ce-9ca5-ea7d995a0b28	ServicePrincipal					XL-Connector 365					Microsoft Accounts
+74f4ad3b-8870-4073-a0a7-457388cf6a30	ServicePrincipal					Workplace by Facebook					Facebook
+a3288f7d-cba9-4487-8093-0a334704cff3	ServicePrincipal					Accompany					Microsoft Accounts
+f555fa1d-c88b-41e2-874b-8347db0adb5c	ServicePrincipal					Outlook Start					Microsoft Accounts
+f3a3a349-5dd2-4cee-a2eb-21a7fbc0f3a6	ServicePrincipal					Gale					Microsoft Accounts
+140c9f3c-c6a0-45c2-ac56-ea46a36e6e52	ServicePrincipal					SMART Account					Microsoft Accounts
+28a1f36a-96ee-48a0-a8e9-76127cdfb0bb	ServicePrincipal					Notifier					Microsoft Accounts
+036ba453-28fd-415c-8190-59232b493e4e	ServicePrincipal					Prod-Trello OneDrive Powerup					Microsoft Accounts
+d03e3b63-cbe8-45f9-b54d-ad92c98ca947	ServicePrincipal					MailClark for MS Live					Microsoft Accounts
+b8eaffac-4f08-415e-bd45-5c4e9aaf0eda	ServicePrincipal					Mercado Libre Mex					Microsoft Accounts
+71649869-50cd-47e3-b9d6-c0d31efa49cb	ServicePrincipal					Apps for Fitbit					Microsoft Accounts
+a5502aa9-e1ff-4ae3-8101-11865c2fc925	ServicePrincipal					Speaking Email app					Microsoft Accounts
+d977949e-1b7a-4f32-99fd-ce7d46d0b23e	ServicePrincipal					Trello Bot					Microsoft Accounts
+2925b16b-92b5-4fab-b6ea-078622e022d4	ServicePrincipal					Chorus					Microsoft Accounts
+135fe9f4-eef7-4804-8e67-f41c0d55c1b6	ServicePrincipal					Cloudmersive					Microsoft Accounts
+d35f9722-305d-4899-a512-c54ac17fd7b6	ServicePrincipal					LinkedIn Microsoft Graph Connector					LinkedIn Corporation
+9b9100fb-3724-4c90-a7db-998cf320da84	ServicePrincipal					mscareers					Microsoft Accounts
+39f042b8-155b-440d-b48d-6dba541a910b	ServicePrincipal					Visual Paradigm Online					Microsoft Accounts
+88f911ee-85ce-4e80-8c4d-4cd9cb27fbf8	ServicePrincipal					app1					Microsoft Accounts
+a8e4ae1a-b3b5-4b80-9615-fac0bf9633e1	ServicePrincipal					??????					Microsoft Accounts
+fc8c46dd-1ad9-4cc0-9cf4-caa6789a82d9	ServicePrincipal					OAuth Testing					Microsoft Accounts
+c1fa0687-2afa-46e4-856c-8dff201327cf	ServicePrincipal					ApprovedContact					Microsoft Accounts
+c55495cd-9dfe-4d7c-8cfb-7fd7bad7c9e7	ServicePrincipal					Microsoft To-Do Inofficial Alexa Skill					Microsoft Accounts
+489fdef5-d5b7-4d57-a6d9-cb38a0bb2592	ServicePrincipal					BlueBridge Glossary					Microsoft Accounts
+5d828669-58fc-406e-bbfa-906669114bc5	ServicePrincipal					Twitter					Microsoft Accounts
+45d4bb54-bf35-46b6-9f38-3f1bb512745d	ServicePrincipal					tpm123					Microsoft Accounts
+9f8f08f2-0730-4009-8654-6c5cefe1c06a	ServicePrincipal					OpenAgora					Microsoft Accounts
+c98cae94-cfbd-44e8-a100-34cfcf1d75ed	ServicePrincipal					CamCard for Outlook					Microsoft Accounts
+5050d5b1-d3fb-461b-b0f5-b281eaeb14c8	ServicePrincipal					Skype Interviews					Microsoft Accounts
+3b64ae36-ea82-48e6-94d2-e207ee4ef224	ServicePrincipal					Copernic Desktop Search PlugIn					Microsoft Accounts
+f38f262e-92e4-4d94-97ef-e5fe6ada1218	ServicePrincipal					Trello					Microsoft Accounts
+1ee19e41-c139-47c3-ab9a-b7148606f4b8	ServicePrincipal					ScreenCloud - OneDrive App					Microsoft Accounts
+f6876abf-14f8-4410-9bc1-ba308797c3c5	ServicePrincipal					Eurocae Registration					Microsoft Accounts
+22cba13b-ac4a-4dcc-a49c-5d53c016188c	ServicePrincipal					MEX APP REGISTRO 13					Microsoft Accounts
+7ddca199-afa5-454f-81e3-33ae2b9dd2d9	ServicePrincipal					Zoom.ai					Microsoft Accounts
+4a8a3b66-1f95-47fd-81dd-0a2284db54a9	ServicePrincipal					DROPBOX					Microsoft Accounts
+ce8de6d8-3539-4bf8-bf05-807c84f2cf59	ServicePrincipal					Siempre Plus					Microsoft Accounts
+52bc6a1f-98af-4c98-985e-3556a472f5f1	ServicePrincipal					Azure Logic Apps (South India)					Microsoft Accounts
+d36e396d-b3cb-4127-89f3-7686b6cf62aa	ServicePrincipal					MX REGISTROS AP5418					Microsoft Accounts
+da0ad667-a970-47fe-bab6-3594b4704f0d	ServicePrincipal					YellowAnt					Microsoft Accounts
+e33bd401-4cba-423a-bc71-bd6ce95df2f0	ServicePrincipal					Turnitin					Microsoft Accounts
+76b8f3d9-b2fa-4b6d-bb08-666440953fd5	ServicePrincipal					Shift					Microsoft Accounts
+d3feb60f-6c95-4b74-95eb-aeb10e30483d	ServicePrincipal					SATS MX APP 972019					Microsoft Accounts
+066f68a1-2d26-4920-822b-bc0fa589a460	ServicePrincipal					Email Client					Microsoft Accounts
+dd11435e-4e72-4169-9c9f-08e60c1c3c86	ServicePrincipal					Lucidpress					Microsoft Accounts
+77de0044-3afb-4e65-8987-10f6f2b2e7ec	ServicePrincipal					Appointment Assistant					Microsoft Accounts
+a54b859d-a762-4ee0-8be8-635d3e2cd868	ServicePrincipal					amazon.jobs					Microsoft Accounts
+74d5cd3c-824d-404f-ab0d-431c8ca985b5	ServicePrincipal					Business Time					Microsoft Accounts
+8b9d2a6b-c565-4130-b7c0-2b8268b4d943	ServicePrincipal					SiteHawk Communicator Prod					Microsoft Accounts
+28d8a22a-bea8-4d08-98ee-4ec5e0bf4197	ServicePrincipal					ZoomOnedrive					Zoom Video Communications
+98704f28-0d8f-4b6f-b002-cae04e654410	ServicePrincipal					GoodReader					Microsoft Accounts
+5dfa3540-c126-4b35-8c73-acde25496adb	ServicePrincipal					Outlook Calendar for Slack					Microsoft Accounts
+c7ddfdb5-850e-4fe5-8699-50ecf66463c1	ServicePrincipal					Canon PRINT Inkjet/SELPHY					Microsoft Accounts
+a7e34d35-7830-45b9-93e1-0c2f0fef78cc	ServicePrincipal					Cyberduck					Microsoft Accounts
+5646c368-a1b7-4b5b-9f47-3ef90b93209b	ServicePrincipal					Azure Logic Apps (Central India)					Microsoft Accounts
+01603038-e7ff-43a8-9cc1-37dde474a26d	ServicePrincipal					Jell					Microsoft Accounts
+f9f17853-c7d1-4471-9181-ee633ac7faeb	ServicePrincipal					BingWebmasterTools					Microsoft Accounts
+dda5b429-7644-47d8-adf8-2080c5a0ff7b	ServicePrincipal					EU					Microsoft Accounts
+595bb91c-6a83-43c6-a0d7-e5685613a713	ServicePrincipal					Apply					Microsoft Accounts
+e3e92fad-2e82-41e0-bdcd-94a1c0362b26	ServicePrincipal					Project Viewer 365 (PC)					Microsoft Accounts
+b9cdaeaf-5da8-4989-9b4b-495661eb55b1	ServicePrincipal					Doodle AG					Microsoft Accounts
+415568a0-6af1-4f44-aee6-e08e4ceb75bf	ServicePrincipal					SMS Backup and Restore					Microsoft Accounts
+60384a20-44ea-4bca-9a6d-2c3bf7e955df	ServicePrincipal					Distribution Manager UAT					Microsoft Accounts
+fd9e4081-9f1b-4a53-a8e1-059fb422a05d	ServicePrincipal					Slack					Microsoft Accounts
+c02c1be2-e99a-47ff-99a6-f217d8225df3	ServicePrincipal					iOS Accounts					Apple Inc.
+dcc6d115-bb21-4cb9-9371-577f17eaeb40	ServicePrincipal					Oauth 2.0					Microsoft Accounts
+b39bd5c8-1736-4d80-a669-c58c57be12bc	ServicePrincipal					Adobe Sign for Office365					Microsoft Accounts
+9fa6e6e5-7e13-4c1b-8956-2729b163fd7d	ServicePrincipal					ToDo Link					Microsoft Accounts
+ee0613ee-f8fc-431b-80c0-5e8c702a51f3	ServicePrincipal					ClickShare					Microsoft Accounts
+28548361-5145-4235-aa96-150ff409af3f	ServicePrincipal					InstaCal					Microsoft Accounts
+50f6695d-0519-4115-a9d4-3cee3a0fbc43	ServicePrincipal					BlueMail					BlueMail Inc.
+e10965d6-c422-4f6d-8c15-50f47e7fab3a	ServicePrincipal					SEGURO MX REGISTRO 19					Microsoft Accounts
+7becced6-aa34-41f5-a25a-bf045b6dcd6a	ServicePrincipal					Zoom Video Communications					Zoom Video Communications
+34797547-276e-422e-afdb-ccec93112cf6	ServicePrincipal					Entelo					Microsoft Accounts
+b3a938f1-c3aa-4e6f-97de-bbdd16f88d08	ServicePrincipal					Otter					Microsoft Accounts
+864e917a-d0ff-4e80-afc7-6e19d27800c2	ServicePrincipal					Bitbucket Cloud					Microsoft Accounts
+70dd0a05-c949-432c-b315-0cca134012ee	ServicePrincipal					careers.cognizant.com					Microsoft Accounts
+f207cb9a-96b9-4d55-9699-79f9538c25e3	ServicePrincipal					talla-production					Microsoft Accounts
+177c83da-e7d1-4c1a-8ff7-49a203398aa5	ServicePrincipal					VaultedgeOffice365					Microsoft Accounts
+7b7979a6-0d0e-4988-9089-465bd6511a15	ServicePrincipal					Azure Logic Apps (East US)					Microsoft Accounts
+f4461a77-8065-4d83-afe2-bb73f124a0ab	ServicePrincipal					MyGet					Microsoft Accounts
+ce32a309-b7cd-46a6-965c-085b6502312b	ServicePrincipal					Canvas					Microsoft Accounts
+261c7ce9-6c2e-40f3-b279-7604136ea040	ServicePrincipal					Shkolo					Microsoft Accounts
+0816a93b-bd03-4e0c-9d3c-f12a6dfdc3ee	ServicePrincipal					CloudBerry Explorer					Microsoft Accounts
+9c11f790-bc39-472c-a912-757931dd4f09	ServicePrincipal					Druide / TypingPal / Tap'Touche / Antidote					Microsoft Accounts
+af725ac1-e6e9-494d-b0d3-1cd4184d258f	ServicePrincipal					YouCanBook.me					Microsoft Accounts
+69f07d23-d445-4df2-8207-dddd1cbdbcda	ServicePrincipal					RealtimeBoard					Microsoft Accounts
+153236ea-803b-42d3-a841-364638d0f788	ServicePrincipal					Plan					Microsoft Accounts
+337eb1a1-e5f1-4751-b810-390a3c94fc61	ServicePrincipal					OAuth Testing					Microsoft Accounts
+775045ff-75f1-4afa-979a-89f0393d6a84	ServicePrincipal					Zoom					Zoom Video Communications
+eb374692-5c29-42fd-b000-ac7f24414f91	ServicePrincipal					Flexcil for iPad					Microsoft Accounts
+3b8e65b2-bd43-4f1f-8b1a-c970957e4bf8	ServicePrincipal					Symbolab					Microsoft Accounts
+0790ab11-ef6f-4158-9da0-ae10d80c8187	ServicePrincipal					DocScan					Microsoft Accounts
+c013f963-d4f6-4750-8c0c-5b88831dbe10	ServicePrincipal					Workbot					Microsoft Accounts
+e8f94ae3-6966-498d-9d4c-00cc53c55754	ServicePrincipal					Bizagi Accounts 1.0					Microsoft Accounts
+1bfb3909-3026-43c5-b057-0589edebcb2d	ServicePrincipal					LinkedIn					LinkedIn Production
+360a787e-f6c2-44d3-b997-749356e8dcf5	ServicePrincipal					AnyTrans					Microsoft Accounts
+46c2019c-87c9-443d-8b28-64603058aacf	ServicePrincipal					CircleBack					Microsoft Accounts
+85d8b91b-f39a-47b1-9eeb-99846e556e12	ServicePrincipal					GoAnimate					Microsoft Accounts
+03fc0015-7482-4990-bf6f-30f5f467c56c	ServicePrincipal					CacheMount (Connect to Cloud Drive)					Microsoft Accounts
+ea3555b9-7d55-4428-9317-4d09c27478a9	ServicePrincipal					id.quest.com quest realm					Microsoft Accounts
+7c827daa-50c9-4b18-a61b-f52cb955e65f	ServicePrincipal					Wavebox Identity					Microsoft Accounts
+45b7b632-19b4-4a2d-b0cc-1c93bc5dd059	ServicePrincipal					Project Gutenberg					Microsoft Accounts
+ae8e8ee8-1833-4fa5-b38d-fa2e31e5f33e	ServicePrincipal					MSRC Portal					Microsoft Accounts
+14eff076-6a1a-40ac-b39d-18509b51d85b	ServicePrincipal					OneDrive					Microsoft Accounts
+de9fc461-b92e-4deb-805b-db87171a61a5	ServicePrincipal					Open Ignite					Microsoft Accounts
+4e4af5ca-8dc9-40c3-a1f4-28a07ef82884	ServicePrincipal					GanttPRO					Microsoft Accounts
+f0625265-ec81-47e2-af5d-92ae9cd7724a	ServicePrincipal					OneSync					Microsoft Accounts
+28266224-de9a-4161-943a-7bf7692d4290	ServicePrincipal					Sectograph					Microsoft Accounts
+302d165f-e6f4-4b65-a974-426cb764a14e	ServicePrincipal					SATS APP MX 31519					Microsoft Accounts
+76456463-7801-4a50-90a8-e5b16f19f5d5	ServicePrincipal					NA1					Microsoft Accounts
+0e08ba90-0693-4709-ae9b-93793886a760	ServicePrincipal					Soda PDF Stage(stage-oauth.sodapdf.com)					Microsoft Accounts
+864fa851-3bb2-4c6e-a2c0-2a47228f0185	ServicePrincipal					TextRecruit Scheduling					Microsoft Accounts
+71429c6a-228e-4dc6-8061-6c9f590b55a4	ServicePrincipal					ShareX					Microsoft Accounts
+32c85864-10e6-4efc-8882-58feb5b204f8	ServicePrincipal					My Notes in Gear					Microsoft Accounts
+de6d1b21-a9c0-4976-b255-bc00ef4ce0dd	ServicePrincipal					QuickHelp					Microsoft Accounts
+abcb7385-1506-4c20-b6d8-b61b9985e94e	ServicePrincipal					Adobe Captivate Prime					Microsoft Accounts
+fc9c443b-ca86-4459-9699-2404601b69c2	ServicePrincipal					Bizzy (By H3 Solutions, Inc.)					Microsoft Accounts
+0226f663-fc5e-46ee-8846-5f711cd178d6	ServicePrincipal					SyncMate					Microsoft Accounts
+51d268ad-2a32-4094-824b-cc0ad0ea8c8f	ServicePrincipal					Foxit_PDF_Graph					Microsoft Accounts
+022d2824-0b00-4911-83b5-296d87da569e	ServicePrincipal					DocuSign					DocuSign
+61b1653b-f12b-43b0-9a2a-7c0a081541fc	ServicePrincipal					DavMail					Microsoft Accounts
+c40f3cee-89be-4339-8ab3-4a2319da3387	ServicePrincipal					Distribution Manager Production					Microsoft Accounts
+764ccafd-4b79-40ed-813e-c08ac73dd9d1	ServicePrincipal					cloudHQ					Microsoft Accounts
+5fba69aa-3db3-4397-892f-d0782d0897cb	ServicePrincipal					Sessionize.com					Microsoft Accounts
+d29adb69-66be-470f-a9f2-0da0e07e3ff1	ServicePrincipal					Polly					Microsoft Accounts
+f36a1af8-b446-4e12-9bb8-7772c20b775e	ServicePrincipal					Polymail					Microsoft Accounts
+99b88cc7-9246-41d6-a2e2-7e72deaa26e1	ServicePrincipal					Service					Microsoft Accounts
+6e530cd1-9f48-4f51-bbe0-5f16df15ea11	ServicePrincipal					Azure Logic Apps (West US)					Microsoft Accounts
+73019d00-643c-4efd-ad15-2e07a5d076a5	ServicePrincipal					Meetup-Prod					Microsoft Accounts
+87e38be8-0a7d-49ed-aa8e-b0e5360abbad	ServicePrincipal					Viewer-Prod					Microsoft Accounts
+54836375-fd20-498d-a756-1271eafed29f	ServicePrincipal					NA3					Microsoft Accounts
+6853aa5e-0428-4975-9c6d-41d9a2a26b34	ServicePrincipal					MyFiles					Microsoft Accounts
+cd89bbf0-21e9-4c67-9953-d36db8f54b11	ServicePrincipal					Amazon Alexa Connect					Amazon
+1d4898e0-65d7-4c99-a584-486f63b46b68	ServicePrincipal					BlueJ					Microsoft Accounts
+06942bba-9987-4603-9150-5c9cbb263371	ServicePrincipal					My ASP.NET App					Microsoft Accounts
+4c8e0e29-e657-4934-91cc-63960931842e	ServicePrincipal					hello					Microsoft Accounts
+001900c7-6cd5-4c17-a3c2-d182774d3f3a	ServicePrincipal					Appraisd					Microsoft Accounts
+80746b7c-6141-4b0d-8f88-e691fb7b8151	ServicePrincipal					Connect GigJam to Outlook.com					Microsoft Accounts
+4a60e15b-dfdd-4d87-8f6f-f9374282f8a3	ServicePrincipal					Notifier for Outlook					Microsoft Accounts
+45adf555-7e18-4e9c-820e-d9eff8a699e5	ServicePrincipal					Tutorial Sample App					Microsoft Accounts
+98d26695-4999-4f6e-9848-fea690385406	ServicePrincipal					x.ai					Microsoft Accounts
+5e79f1ad-74dd-46d4-badc-ac8065906529	ServicePrincipal					Amazon Alexa					Amazon
+605f56da-fadb-4c39-93e6-996388e3b067	ServicePrincipal					AutoCAD Mobile 					Microsoft Accounts
